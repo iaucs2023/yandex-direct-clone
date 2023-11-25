@@ -4,6 +4,10 @@ header {
   align-items: center;
 }
 
+h1 span {
+  color: #F0EAB1;
+}
+
 #land {
 
 }
@@ -14,7 +18,7 @@ header {
 }
 
 .btn {
-  background-color: yellow;
+  background-color: #FFDF39;
   padding: 15px;
   font-weight: bold;
 }
