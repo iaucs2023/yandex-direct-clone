@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#land {
+
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.btn {
+  background-color: yellow;
+  padding: 15px;
+  font-weight: bold;
+}
