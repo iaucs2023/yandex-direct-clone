@@ -1,11 +1,14 @@
 body {
   margin: 0;
+  background-color: #041F33;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 #landing {
@@ -22,10 +25,11 @@ header {
   color: white;
 }
 
-.btn {
+body a.btn {
   background-color: #FFDF39;
   padding: 10px 20px;
   border-radius: 10px;
+  color: black;
 }
 
 .blue-container {
@@ -86,9 +90,52 @@ header {
   clear: both;
 }
 
+#section5 {
+  background-color: #041F33;
+}
 
+#section5 h3,
+#section6 h3 {
+  font-size: 40px;
+  text-align: center;
+}
 
+#section5 .content {
+  display: flex;
+  align-items: center;
+}
 
+#section5 img {
+  height: 300px;
+}
 
+#section5 li {
+  font-size: 25px;
+  line-height: 35px;
+}
 
+#section6 {
+  border-top-left-radius: 50px;
+  border: 3px solid black;
+  background-color: white;
+}
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 320px;
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#section7 {
+  background-color: #E3E8EF;
+}
