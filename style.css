@@ -27,6 +27,8 @@ header {
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(90deg, rgba(13,36,47,1) 6%, rgba(19,48,77,1) 100%);
+  position: sticky;
+  top: 0;
 }
 
 h1 span {
@@ -76,7 +78,7 @@ h1 span {
   justify-content: flex-end;
 }
 
-.content {
+#section2 .content {
   width: 350px;
 }
 
@@ -95,3 +97,54 @@ h1 span {
   height: 507px;
 }
 
+#section5 .content {
+  display: flex;
+  align-items: center;
+}
+
+#section5 img {
+  height: 300px;
+  /* width: 100%; */
+}
+
+#section5 h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#section5 li {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+#section6 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#section6 .card {
+  width: 350px;
+  margin: 20px;
+}
+
+#section6 img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+#section6 p {
+  font-size: 23px;
+  padding: 10px 20px;
+}
+
+#section6 button {
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+}
